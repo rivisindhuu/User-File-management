@@ -45,7 +45,12 @@ All tasks were performed using **PowerShell (Run as Administrator)**.
 
 <img width="412" height="83" alt="Create a Folder and Manage Permission" src="https://github.com/user-attachments/assets/2f05608f-2a15-4788-a2ee-3e402fe00c97" />
 
-## 1.5.1 Check permissions
+## Grant permissions to the TechSupport group:
+
+<img width="485" height="48" alt="Grant permissions to the Techsupport group" src="https://github.com/user-attachments/assets/72e79749-fefa-409b-9e3f-94f63fb78bc6" />
+
+
+## 1.5.2 Check permissions
 
 <img width="484" height="135" alt="Check permissions" src="https://github.com/user-attachments/assets/4d6e6b32-22ea-44ff-8e2e-72d93726bd02" />
 
@@ -72,5 +77,11 @@ All tasks were performed using **PowerShell (Run as Administrator)**.
 <img width="410" height="43" alt="Verify Installation vlc" src="https://github.com/user-attachments/assets/f4ad686a-2e1a-4697-857b-d290c55a7460" />
 
 
+# Task 3: Brief Explanation for my submission 
 
+I opened Command Prompt as Administrator and created a new user named Harmony using the net user command. I verified the account creation using net user Harmony.
+
+I created a local group named TechSupport and added the user to that group using net localgroup. I then created a folder called C:\ProjectFiles and assigned full control permissions to the TechSupport group using the icacls command.
+
+For software installation, I used Chocolatey (choco) to install vlc via the command choco install vlc -y. I confirmed the installation by listing installed packages using choco list --local-only.
 
